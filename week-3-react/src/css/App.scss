@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+// Reset & Variables
+@import "./reset";
+@import "./variables";
+
+// Layout & Search
+@import "./navbar";
+@import "./pagination";
+@import "./loading";
+@import "./search";
+
+// Pages
+@import "./character-list-and-items"; // Within home page
+@import "./character-detail-page";
+@import "./not-found-page";
